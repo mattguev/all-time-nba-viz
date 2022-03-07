@@ -1,5 +1,4 @@
 # all-time-nba-viz
-Producing bar charts and radar plots to summarize statistics for All-Time Detroit Pistons players 
 
 These two visualizations are concerned with answering the question of 'Who were the Detroit Pistons' best players of All-Time, and what statistics did they average during their time there?' I chose to measure performance by the number of Player of the Week awards that player won during their time there. This data was scraped from a Kaggle dataset tracking Players of the Week from 1980 to 2020. I filtered that dataset to only feature players from the Detroit Pistons, then grouped players by number of awards. Afterwards, I merged that data with a CSV from Basketball-Reference.com which records career averages for every Pistons player during the time that they played there. From there, I sorted players by their awards in descending order and took the first five, those being: Isiah Thomas, Andre Drummond, Ben Wallace, Grant Hill, and Chauncey Billups.
 
